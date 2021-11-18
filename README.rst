@@ -2,6 +2,9 @@
 Breve análise de dados sobre o mercado de trabalho de cientista de dados nos EUA
 ********************************************************************************
 
+.. image:: fig/word_cloud.png
+   :width: 1200
+
 ++++++
 Resumo
 ++++++
@@ -40,13 +43,24 @@ Análise do campo Position
 
 Utilizando a biblioteca do nltk, foi observado nos nomes das posições que as palavras scientist e data são as mais comuns, seguida de engineer, research e senior. Verifica-se também que palavras associadas ao nível hierárquico da função (senior, manager, director, lead, sr) estão entre as 30 palavras mais comuns. Além disso, as palavras machine e learning estão entre as 10 mais usadas. Quanto aos pares de palavras mais comuns, estão os pares data scientist, machine learning e scientist data na liderança do ranking. Quanto aos tritetos, o data scientist data lidera a lista.
 
+.. image:: fig/chart_1.png
+   :width: 600
+   :align: center
+
 Analisando as posições nas quais a palavra data scientist aparece, verifica-se que há alta oferta de cargos para profissionais nível sênior ou ligados a um cargo de liderança. Verifica-se que as palavras machine e learning são bastante comuns em posições de cientista de dados. Somado a isso, o par natural language é bastante popular também, palavras associadas ao termo processamento de linguagem natural. Outros pares tais como financial service e deep learning também estão entre os top 30. De modo surpreende, o nome New York é bastante comum nos nomes das posições de cientista de dados. Quanto aos tritetos, verifica-se que natural language processing lidera o ranking. Entre os tritetos mais populares, verifica-se a presença da palavra Azure, nome dado ao cloud computing service da Microsoft. Para finalizar, entre os tritetos e os pares, pode-se observar grupos de palavras como cognitive natural, cognitive natural language, manager cognitive natural e associate cognite natural estão entre os grupos mais comuns. Tais termos também estão ligados ao processamento de linguagem natural.
 
 Uma outra abordagem de análise das posições das vagas foi implementada. As posições foram divididas em 5 categorias com base na presença de determinadas palavras chaves nos nomes das posições. As categorias são: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager, Data Engineer e Others. Verifica-se que a categoria Data Scientist é a mais comum das 5, superior a soma das categorias Machine Learnining Engineer e Data Analyst. Somado a isso, pode-se observar que a categoria Others é a terceira maior categoria. A ordem do ranking de modo geral varia de estado para estado. A categoria Data Scientist é a mais procurada na Califórnia e em diversos estados, mas em Colorado e Washington Machine Learning Engineer lidera. O segundo colocado no ranking também varia entre os estados nos quais Data Scientist lidera. Seguindo essa comparação entre estes estados, nota-se que o percentual da categoria Data Scientist não é o mesmo entre estes. Essa categoria é bem mais procurada em New Jersey do que os outros estados, mais de 75% das vagas, enquanto em Illinois é apenas de 30%. Para finalizar, de modo geral, a proporcionalidade das demais categorias em relação à categoria Data Scientist é diferente. Com relação à este aspecto, verifica-se que os estados do Texas e Georgia seguem mais ou menos o mesmo padrão, divergindo significativamente apenas nas categorias Data Analyst e Data Engineer.
 
+.. image:: fig/chart_3.png
+   :width: 500
+
 Para aprofundar e reforçar a análise comparativa das categorias entre os estados foi feito um conjunto de gráficos de barra. Os gráficos de barra mostram a quantidade de vagas das categorias em cada estado. Cada gráfico para uma categoria e cada barra para um estado. Pode-se observar que, de modo geral e estatisticamente, os estados dão prioridades diferentes em relação as categorias.
 
 Foi feita uma Word Cloud para cada categoria. A Word Cloud apresenta as palavras mais usadas em um conjunto de textos. O tamanho das palavras está de acordo com a frequência que elas aparecem nos textos. Verifica-se que a word cloud de data scientist apresenta as palavras research e science como sendo as mais usadas, seguidas de learning, analysis, business e development. Na word cloud de others, as maiores palavras são research, ability e project. A palavra business é bastante comum nas categorias data analyst, data engineer e data science manager. Para a categoria machine learning engineer, software e learning são as palavras mais usadas.
+
+.. image:: fig/chart_4.png
+   :width: 800
+   :align: center
 
 ++++++++++++++++++++++++
 Análise do campo Company
